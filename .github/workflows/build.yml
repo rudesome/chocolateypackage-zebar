@@ -31,7 +31,7 @@ jobs:
     - name: Get file hash
       run: |
         wget --no-verbose https://github.com/glzr-io/zebar/releases/download/${{ env.version }}/zebar-${{ env.version }}-opt1-x64.msi
-        HASH=$(sha256sum glazewm-${{ env.semver }}.exe | awk "{print \$1}")
+        HASH=$(sha256sum zebar-${{ env.version }}-opt1-x64.msi | awk "{print \$1}")
         echo "hash=$HASH" >> $GITHUB_ENV
 
     - name: Make install script
@@ -51,7 +51,7 @@ jobs:
 
     - name: Make nuspec
       run: |
-        cat << EOF > glazewm.nuspec
+        cat << EOF > zebar.nuspec
         <?xml version="1.0" encoding="utf-8"?>
         <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
           <metadata>
