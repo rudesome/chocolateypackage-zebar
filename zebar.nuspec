@@ -14,7 +14,7 @@
     <projectSourceUrl>https://github.com/glzr-io/zebar</projectSourceUrl>
     <bugTrackerUrl>https://github.com/glzr-io/zebar/issues</bugTrackerUrl>
     <tags>statusbar desktop dock taskbar bar</tags>
-    <summary>Zebar is a tool for creating customizable and cross-platform taskbars, desktop widgets, and popups. /summary>
+    <summary>Zebar is a tool for creating customizable and cross-platform taskbars, desktop widgets, and popups.</summary>
     <description>
       Zebar lets you create customizable and cross-platform desktop widgets.
     </description>
