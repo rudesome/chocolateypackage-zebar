@@ -1,4 +1,4 @@
-name: Package GlazeWM
+name: Package Zebar
 
 concurrency: ci-build
 
