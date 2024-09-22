@@ -41,9 +41,10 @@ jobs:
         \$params = @{
           packageName  = 'zebar'
           FileType     = 'msi'
-          SilentArgs   = '/silent'
-          Url          = 'https://github.com/glzr-io/zebar/releases/download/${{ env.version }}/zebar-${{ env.version }}-opt1-x64.msi'
-          checksum     = '${{ env.hash }}'
+          SilentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
+          validExitCodes = @(0, 3010, 1641)
+          Url          = 'https://github.com/glzr-io/zebar/releases/download/${{ env.version }}/zebar-${{ env.version }}-opt1-x64.msi' 
+          checksum     = '${{ env.hash }}' 
           checksumType = 'sha256'
         }
         Install-ChocolateyPackage @params
