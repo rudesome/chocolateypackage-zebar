@@ -7,5 +7,4 @@ $params = @{
   checksum     = '723b2bc6e19fa67d5f9f1b88ecf23b14247771e95db35897b749708e5d5e41cd'
   checksumType = 'sha256'
 }
-
 Install-ChocolateyPackage @params

@@ -8,7 +8,6 @@
     <title>Zebar</title>
     <authors>glzr.io</authors>
     <projectUrl>https://github.com/glzr-io/zebar</projectUrl>
-
     <iconUrl>https://github.com/user-attachments/assets/d1e10485-2cbb-4434-9d98-5c74702eebcc</iconUrl>
     <licenseUrl>https://raw.githubusercontent.com/glzr-io/zebar/main/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -16,7 +15,6 @@
     <bugTrackerUrl>https://github.com/glzr-io/zebar/issues</bugTrackerUrl>
     <tags>statusbar desktop dock taskbar bar</tags>
     <summary><Zebar is a tool for creating customizable and cross-platform taskbars, desktop widgets, and popups. /summary>
-
     <description>
       Zebar lets you create customizable and cross-platform desktop widgets.
     </description>
