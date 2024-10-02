@@ -78,6 +78,9 @@ jobs:
             Release notes found here: https://github.com/glzr-io/zebar/releases/tag/${{ env.version }}
 
             </releaseNotes>
+            <dependencies>
+              <dependency id="webview2-runtime" />
+            </dependencies>
           </metadata>
           <files>
             <file src="tools\**" target="tools" />
