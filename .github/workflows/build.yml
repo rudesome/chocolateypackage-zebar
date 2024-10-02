@@ -85,7 +85,7 @@ jobs:
         </package>
         EOF
 
-    - name: Remove EXE
+    - name: Remove MSI
       run: rm zebar*.msi
 
     - name: Write latest version to file
