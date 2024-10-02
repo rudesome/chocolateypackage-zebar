@@ -23,6 +23,9 @@
     Release notes found here: https://github.com/glzr-io/zebar/releases/tag/v2.2.2
 
     </releaseNotes>
+    <dependencies>
+      <dependency id="webview2-runtime" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
