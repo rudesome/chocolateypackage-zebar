@@ -145,5 +145,5 @@ jobs:
       with:
         args: push zebar.nupkg -s https://push.chocolatey.org/
 
-    # create dummy trigger to prevent disabling the workflow by github
-    - uses: gautamkrishnar/keepalive-workflow@master
+    # disable for now, need new solution
+    #- uses: gautamkrishnar/keepalive-workflow@master
