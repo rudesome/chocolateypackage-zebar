@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>zebar</id>
-    <version>3.1.0</version>
+    <version>3.1.1</version>
     <packageSourceUrl>https://github.com/rudesome/chocolateypackage-zebar</packageSourceUrl>
     <owners>rudesome</owners>
     <title>Zebar</title>
@@ -20,7 +20,7 @@
     </description>
     <releaseNotes>
 
-    Release notes found here: https://github.com/glzr-io/zebar/releases/tag/v3.1.0
+    Release notes found here: https://github.com/glzr-io/zebar/releases/tag/v3.1.1
 
     </releaseNotes>
     <dependencies>
