@@ -4,8 +4,8 @@ $params = @{
   FileType         = 'msi'
   SilentArgs       = "/qn /norestart"
   validExitCodes   = @(0, 3010, 1641)
-  Url64bit         = 'https://github.com/glzr-io/zebar/releases/download/v3.1.1/zebar-v3.1.1-opt1-x64.msi' 
-  checksum64       = '6a23e94777f5736a4a132cef57376527df4606d3a94fba567f14d8de6b38e976' 
+  Url64bit         = 'https://github.com/glzr-io/zebar/releases/download/v3.2.0/zebar-v3.2.0-opt1-x64.msi' 
+  checksum64       = '59ec2d37ba7a7e3a7ece9cc4f6ad193f749aa7c6b9bd4fb4a33c3a9432e536ce' 
   checksumType64   = 'sha256'
 }
 Install-ChocolateyPackage @params
